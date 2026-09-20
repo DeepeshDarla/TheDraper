@@ -92,7 +92,7 @@ if(homeVisitForm){
         const needValue=(needField&&needField.value)?needField.value:'not_specified';
         pushAnalyticsEvent('generate_lead', {
           form_name: 'home-visit',
-          lead_type: 'home_visit',
+          lead_type: 'home-visit',
           need: needValue
         });
         homeVisitForm.hidden=true;
