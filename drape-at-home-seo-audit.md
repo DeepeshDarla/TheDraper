@@ -70,7 +70,7 @@ Given this is a small, single-location business, **Option A is simpler to mainta
 
 ### 2.3 Structured data (Schema.org) — currently absent
 Add JSON-LD to `<head>`:
-- **Sitewide (in the base template):** `LocalBusiness` (or more specifically `HomeAndConstructionBusiness`) with name, address (Mysore/Mysuru, Karnataka), phone (`+91 98862 24170`), `areaServed`, `priceRange`, and `sameAs` (social profiles once live).
+- **Sitewide (in the base template):** `LocalBusiness` (or more specifically `HomeAndConstructionBusiness`) with name, address (Mysore/Mysuru, Karnataka), phone (`+91 91802 24170`), `areaServed`, `priceRange`, and `sameAs` (social profiles once live).
 - **On `/curtains`, `/blinds`, `/motorisation`:** `Service` schema (serviceType, areaServed, provider).
 - **On the 4 guide pages:** `Article` schema (headline, datePublished, author/publisher).
 - **On `/inspiration` and any guide with recurring reader questions:** `FAQPage` schema — you don't have visible FAQs yet, but adding 3–5 real ones (e.g., "Do you charge for the home visit?", "How long does made-to-measure take in Mysore?") would let you legitimately add FAQ schema, which is strong real estate in local search.
